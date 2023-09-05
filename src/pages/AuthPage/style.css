@@ -1,0 +1,141 @@
+
+
+.form-side{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+   gap: 2.5rem;
+    margin-top: 2rem;
+}
+
+@media (min-width: 992px) {
+    .form-side{
+        padding-right: 12rem;
+
+    }
+}
+
+
+.p-text{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1rem;
+}
+    
+
+
+
+.botom-img{
+    width: 100%;
+   display: flex;
+   justify-content: flex-end;
+   margin-top: -120px;
+} 
+
+.botom-img img{
+    object-fit: cover;
+    object-position: center;
+}
+
+.Form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+
+.soicl-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.or-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.or-line span {
+    color: rgba(186, 186, 186, 1);
+    font-size: 14px;
+    
+
+
+}
+
+form { 
+    width: 60%;
+}
+
+.input-div{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap:  10px;
+    margin-bottom: 2rem;
+}
+
+.input-div input{
+    border:  1px solid rgba(134, 146, 166, 1);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    padding: 20px;
+    outline: none !important;
+}
+.input-div input:active , 
+.input-div input:focus , 
+.input-div input:focus-visible {
+    border: 1px solid var(--main-blue) !important; 
+}
+
+
+.input-div label {
+    color: rgba(105, 111, 121, 1);
+    font-size: 14px;
+}
+
+.input-div input::placeholder{
+    font-size: 12px;
+}
+
+form button {
+    width: 100%;
+    padding: 20px;
+    color: white;
+    background-color: var(--main-blue);
+    border: 1px solid var(--main-blue) !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+form .errormasg{
+    color: red;
+    font-size: 13px;
+}
+
+.Toastify__toast-theme--light {
+    background:  red !important;
+    color: white !important;
+}
+
+.Toastify__close-button{
+    display: none;
+}

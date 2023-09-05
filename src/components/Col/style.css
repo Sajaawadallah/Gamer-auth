@@ -1,0 +1,18 @@
+.col{
+
+  flex: 1;
+  
+   
+}
+
+
+
+@media (max-width: 768px) {
+   
+    .col{
+        flex-basis: 100%;
+      }
+  }
+  
+
+
